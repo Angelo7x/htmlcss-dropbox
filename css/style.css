@@ -24,11 +24,6 @@ header {
     vertical-align: middle;
 }
 
-
-/* .left-nav, .right-nav {
-    display: inline-block;
-} */
-
 .left-nav {
     float: left;
     width: 50%;
@@ -49,11 +44,52 @@ a {
     color: #000;
     margin: 0px 20px;
 }
+
+/*fine header*/
+
+
 /*buttons*/
 .btn {
     background-color: #0061ff;
     color: white;
     height: 32px;
-    width: 60px;
+    padding: 0px 15px;
     border: none;
 }
+
+/*inizio main*/
+.hero{
+    background-color: #b4d0e7;
+}
+
+h1 {
+    /* text-align: center; */
+    font-size: 48px;
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.entity {
+    font-size: 28px;
+}
+
+.col-text {
+    float: left;
+    width: 30%;
+}
+
+.col-img {
+    float: left;
+    width: 70%;
+    background-image: url(../img/jumbo.png);
+}
+
+.col-text p {
+    margin: 30px 0px
+}
+
+
