@@ -8,6 +8,10 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    position: relative;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -16,6 +20,8 @@ html {
 
 header {
     padding: 20px;
+    height: 80px;
+
 }
 
 .logo {
@@ -60,12 +66,13 @@ a {
 /*inizio main*/
 .hero{
     background-color: #b4d0e7;
+    padding-top: 70px;
+    height: 630px;
 }
 
 h1 {
     /* text-align: center; */
-    font-size: 48px;
-    
+    font-size: 48px; 
 }
 
 .container {
@@ -85,11 +92,16 @@ h1 {
 .col-img {
     float: left;
     width: 70%;
-    background-image: url(../img/jumbo.png);
 }
 
 .col-text p {
-    margin: 30px 0px
+    margin: 30px 0;
+}
+
+.col-img img {
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
 }
 
 
