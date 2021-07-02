@@ -8,10 +8,6 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    position: relative;
-}
-
 .clearfix::after {
     content: "";
     display: table;
@@ -24,6 +20,8 @@ header {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 10;
+    line-height: 40px;
 }
 
 .logo {
@@ -69,7 +67,11 @@ a {
 .hero{
     background-color: #b4d0e7;
     padding-top: 70px;
-    height: 695px;
+}
+
+.hero-container {
+    position: relative;
+    bottom: -80px;
 }
 
 h1 {
