@@ -259,21 +259,34 @@ ul li {
 
 /*fine partner section*/
 
+/* Inizio parte business*/
+
 .business-left, .business-center, .business-right {
     float: left;
     width: calc(100% / 3 - 10px);
-    background-color: red;
-    border: 1px solid black;
-    height: 350px;
 
 }
 
 .row-business {
     width: 100%;
+    margin-top: 70px;
+}
+
+.container-business{
+    margin-top: 40px ;
+}
+
+.container-business h2 {
+    font-size: 28px;
 }
 
 .business-left {
 
+
+}
+
+.business-left img {
+    width: 100%;
 }
 
 .business-center {
