@@ -147,6 +147,13 @@ h1 {
     border-bottom: 1px solid #d0d0d3;
 }
 
+.tipe-plane-1 {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+
 .description {
     width: 70%;
     margin: auto;
@@ -175,3 +182,79 @@ ul li {
     text-decoration: none;
     padding: 10px 0;
 }
+
+.enterprise {
+    margin-top: 50px;
+    border: 1px solid #d0d0d3;
+}
+
+.content-enterprise {
+    width: 100%;
+    padding: 20px;
+}
+.content-left{
+    float: left;
+    width: 70%;
+}
+
+.content-right{
+    float: left;
+    width: 30%;
+}
+
+.btn-vendite {
+    background-color: #0061ff;
+    color: white;
+    height: 32px;
+    padding: 0px 15px;
+    border: none;
+    width: 305px;
+    text-align: center;
+}
+
+.content-left p {
+    padding-top: 20px;
+}
+
+/*Partner section*/
+
+.container-partner {
+    padding-top: 150px;
+}
+
+.partner-img {
+    float: left;
+    width: 50%;
+}
+
+.row-partner {
+    vertical-align: middle;
+}
+
+.partner-img img {
+    width: 100%;
+}
+
+.partner-text {
+    float: left;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.btn-partner {
+    background-color: white;
+    color: black;
+    height: 32px;
+    padding: 0px 15px;
+    border: 1px solid black;
+}
+
+.partner-text p {
+    padding: 40px 0;
+}
+
+
+
+
+
+
