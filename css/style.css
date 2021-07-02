@@ -267,9 +267,13 @@ ul li {
 
 }
 
-.row-business {
+.row-business1 {
     width: 100%;
     margin-top: 70px;
+}
+
+.row-business2 {
+    margin-top: 150px;
 }
 
 .container-business{
@@ -280,23 +284,26 @@ ul li {
     font-size: 28px;
 }
 
-.business-left {
-
-
+.business-left p, .business-center p, .business-right p {
+    line-height: 30px;
 }
 
-.business-left img {
+.business-left img, .business-center img, .business-right img {
     width: 100%;
+}
+
+.business-left h4, .business-center h4, .business-right h4 {
+    margin: 20px 0;
+    font-size: 24px;
 }
 
 .business-center {
     margin: 0px 10px;
 }
 
-.business-right {
-
+.span {
+    text-decoration: underline;
 }
-
 
 
 
