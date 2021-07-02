@@ -135,7 +135,6 @@ h1 {
     float: left;
     width: calc(100% / 3 - 14px);
     border: 1px solid #d0d0d3;
-    height: 300px;
 }
 
 .center-plane {
@@ -151,4 +150,28 @@ h1 {
 .description {
     width: 70%;
     margin: auto;
+}
+
+.option {
+    color: #7c8995;
+
+}
+
+.description p, .description h3 {
+    padding: 20px 0px;
+}
+
+.description h3 {
+    font-size: 30px ;
+}
+
+.semi-border {
+    border: 1px solid #d0d0d3;
+    margin: 20px 0px;
+    width: 30%;
+}
+
+ul li {
+    text-decoration: none;
+    padding: 10px 0;
 }
