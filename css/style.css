@@ -134,11 +134,21 @@ h1 {
 .left-plane, .center-plane, .right-plane {
     float: left;
     width: calc(100% / 3 - 14px);
-    background-color: darkblue;
-    border: 3px solid red;
+    border: 1px solid #d0d0d3;
     height: 300px;
 }
 
 .center-plane {
     margin: 0px 20px;
+}
+
+.tipe-plane {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.description {
+    width: 70%;
+    margin: auto;
 }
