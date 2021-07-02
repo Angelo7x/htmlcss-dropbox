@@ -129,12 +129,14 @@ h1 {
 
 .row-planes {
     width: 100%;
+    min-height: 1200px;
 }
 
 .left-plane, .center-plane, .right-plane {
     float: left;
     width: calc(100% / 3 - 14px);
     border: 1px solid #d0d0d3;
+    min-height: 1200px
 }
 
 .center-plane {
@@ -256,6 +258,31 @@ ul li {
 }
 
 /*fine partner section*/
+
+.business-left, .business-center, .business-right {
+    float: left;
+    width: calc(100% / 3 - 10px);
+    background-color: red;
+    border: 1px solid black;
+    height: 350px;
+
+}
+
+.row-business {
+    width: 100%;
+}
+
+.business-left {
+
+}
+
+.business-center {
+    margin: 0px 10px;
+}
+
+.business-right {
+
+}
 
 
 
