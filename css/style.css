@@ -45,7 +45,7 @@ ul, li {
     display: inline-block;
 }
 
-a {
+header a {
     text-decoration: none;
     color: #000;
     margin: 0px 20px;
@@ -489,8 +489,8 @@ li span {
 
 .textpart-sec p {
     padding: 30px 0;
-    border-top: 2px solid #dcdcde;
-    border-bottom: 2px solid #dcdcde;
+    border-top: 1px solid #dcdcde;
+    border-bottom: 1px solid #dcdcde;
 }
 
 .left-textpart {
@@ -502,6 +502,38 @@ li span {
     width: 30%;
     float: left;
     text-align: right;
+}
+
+.footer-container {
+    background-color: black;
+}
+
+.text-footer {
+    width: 85%;
+    color: white;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px
+    ;
+}
+
+.dropbox, .prodotti, .azienda, .supporto, .community {
+    float: left;
+    width: 20%;
+
+}
+ 
+.dropbox ul li a, .prodotti ul li a, .azienda ul li a, .supporto ul li a, .community ul li a {
+    color: white;
+    display: block;
+}
+
+footer a {
+    text-decoration: underline none;
+}
+
+.dropbox {
+    border-bottom: 1px solid #bfbfbf;
 }
 
 
