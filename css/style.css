@@ -185,6 +185,10 @@ ul li {
     padding: 10px 0;
 }
 
+li span {
+    color: #0061ff;
+}
+
 .enterprise {
     margin-top: 50px;
     border: 1px solid #d0d0d3;
@@ -210,7 +214,7 @@ ul li {
     height: 32px;
     padding: 0px 15px;
     border: none;
-    width: 305px;
+    min-width: 305px;
     text-align: center;
 }
 
@@ -274,6 +278,7 @@ ul li {
 
 .row-business2 {
     margin-top: 150px;
+    padding-bottom: 100px;
 }
 
 .container-business{
@@ -305,6 +310,60 @@ ul li {
     text-decoration: underline;
 }
 
+.link-clienti {
+    margin: 30px 0px;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+.fa-user {
+    color: black;
+}
+
+/*fine parte business*/
+
+/*parte loghi*/
+
+
+.left-log {
+    float: left;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.left-log1 {
+    float: left;
+    width: 50%;
+}
+
+.left-log1 img {
+    width: 100%;
+}
+
+.right-log {
+    float: left;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.right-log1 {
+    float: left;
+    width: 50%;
+}
+
+.right-log1 img {
+    width: 100%;
+}
+
+
+
+.center-log {
+    float: left;
+    width: calc(40% - 20px);
+    border:1 px solid red;
+}
 
 
 
