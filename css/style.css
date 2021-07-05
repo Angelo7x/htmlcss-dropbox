@@ -330,41 +330,51 @@ li span {
 .left-log {
     float: left;
     width: 30%;
-    background-color: yellow;
 }
 
 .left-log1 {
     float: left;
     width: 50%;
-    background-color: violet;
+    background-color: #a2d39b;
 }
 
 .left-log2 {
     float: left;
     width: 50%;
-    background-color: teal;
+    background-color: #61082b;
 }
 
-/* .left-log1 img {
+.left-log1 img, .left-log2 img, .right-log1 img, .right-log2 img, .center-log img {
     width: 100%;
-} */
+}
 
 .center-log {
     float: left;
     width: 40%;
-    background-color: red;
+    background-color: #f5f5f5;
+    margin: auto;
+}
+
+.center-log img {
+    background-size: cover;
 }
 
 
 .right-log {
     float: left;
     width: 30%;
-    background-color: green;
 }
 
 .right-log1 {
     float: left;
     width: 50%;
+    background-color: #d5001f;
+}
+
+.right-log2 {
+    float: left;
+    width: 50%;
+    background-color: #b4d0e7;
 }
 
 .left-log, .center-log, .right-log {
