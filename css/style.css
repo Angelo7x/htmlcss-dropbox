@@ -377,14 +377,28 @@ li span {
     width: 40%;
     background-color: #f5f5f5;
     position: relative;
+    text-align: center;
+    height: 360px;
+}
+
+.content-center {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.last {
+    padding-top: 300px;
 }
 
 .center-log img {
     width: 100%;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .right-log {
