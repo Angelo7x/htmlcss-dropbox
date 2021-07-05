@@ -330,22 +330,36 @@ li span {
 .left-log {
     float: left;
     width: 30%;
-    border: 1px solid red;
+    background-color: yellow;
 }
 
 .left-log1 {
     float: left;
     width: 50%;
+    background-color: violet;
 }
 
-.left-log1 img {
-    width: 100%;
+.left-log2 {
+    float: left;
+    width: 50%;
+    background-color: teal;
 }
+
+/* .left-log1 img {
+    width: 100%;
+} */
+
+.center-log {
+    float: left;
+    width: 40%;
+    background-color: red;
+}
+
 
 .right-log {
     float: left;
     width: 30%;
-    border: 1px solid red;
+    background-color: green;
 }
 
 .right-log1 {
@@ -353,17 +367,19 @@ li span {
     width: 50%;
 }
 
-.right-log1 img {
+.left-log, .center-log, .right-log {
+    height: 150px;
+}
+
+
+
+
+/* .right-log1 img {
     width: 100%;
-}
+} */
 
 
 
-.center-log {
-    float: left;
-    width: calc(40% - 20px);
-    border:1 px solid red;
-}
 
 
 
