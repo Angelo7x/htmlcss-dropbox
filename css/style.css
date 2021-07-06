@@ -24,6 +24,11 @@ header {
     line-height: 40px;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 .logo {
     display: inline-block;
     margin-right: 20px;
@@ -541,8 +546,6 @@ footer a {
     color: #999999;
     display: inline-block;
 }
-
-
 
 
 
